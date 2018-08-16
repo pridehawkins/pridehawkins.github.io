@@ -1,47 +1,48 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-  <h1>Matthew Pride Hawkins</h1>
+  <header>
+    <h1>My Biography</h1>
+  </header>
 
-  <img src="/klingon.jpg" alt="Matthew Pride Hawkins" style="width: 25%;">
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Matthew Pride Hawkins</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+      </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. 
+	  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+	  Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. 
+	  Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+	  per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, 
+	  congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. 
+	  Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. 
+	  Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
+    </section>
 
-  <p>I am the mack daddy of the daddy MACK!</p>
-  <p>A second short paragraph about yourself or some placeholder text.</p>
-
-  <ul>
-    <li><strong>Email:</strong> <a href="#">PrideHawkins@outlook.com</a></li>
-    <li><strong>Github:</strong> <a href="#">https://github.com/pridehawkins</a></li>
-    <li><strong>Twitter:</strong> <a href="#">@PrideHawkins</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>The Hobbit</td>
-      <td>Hot Fuzz</td>
-      <td>Dark Souls</td>
-    </tr>
-    <tr>
-      <td>The Name of the Wind</td>
-      <td>The Avengers</td>
-      <td>The Last of Us</td>
-    </tr>
-    <tr>
-      <td>The Girl With All the Gifts</td>
-      <td>Serenity</td>
-      <td>Dungeons & Dragons</td>
-    </tr>
-  </table>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">PrideHawkins@outlook.com</a></li>
+        <li><strong>Github:</strong> <a href="#">https://github.com/pridehawkins</a></li>
+		<li><strong>Twitter:</strong> <a href="#">@PrideHawkins</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+	<img src="/klingon.jpg" alt="Matthew Pride Hawkins" style="width: 25%;">
+  </main>
 
 </body>
 
