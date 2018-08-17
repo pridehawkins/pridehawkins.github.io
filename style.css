@@ -36,7 +36,7 @@ a {
 
 /* Selecting elements by class */
 .container {
-  width: 1024px;
+  width: 2048px;
   margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ a {
 #main-bio,
 #contact-info,
 #bio-image {
-  float: center;
+  float: left;
 }
 
 #figure {
