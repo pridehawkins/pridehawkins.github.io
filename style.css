@@ -36,7 +36,7 @@ a {
 
 /* Selecting elements by class */
 .container {
-  width: 1024px;
+  width: 2048px;
   margin: 0 auto;
 }
 
@@ -68,5 +68,5 @@ a {
 #bio-image {
   width: 200px;
   height: 200px;
-  margin-right: 60px;
+  margin-right: 25px;
 }
