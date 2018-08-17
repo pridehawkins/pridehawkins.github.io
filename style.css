@@ -52,13 +52,13 @@ a {
 }
 
 #bio-name {
-  position: left;
+  position: absolute;
   top: 150px;
   left: 30px;
 }
 
 #main-bio {
-  width: 65%;
+  width: 55%;
 }
 
 #contact-info {
