@@ -21,13 +21,13 @@ h1 {
   padding: 20px 0;
   margin: 0;
   margin-bottom: 20px;
-  font-size: 28px;
+  font-size: 35px;
   color: #eee;
   text-align: center;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 a {
@@ -44,7 +44,7 @@ a {
 #main-bio,
 #contact-info,
 #bio-image {
-  float: left;
+  float: center;
 }
 
 #figure {
@@ -58,11 +58,11 @@ a {
 }
 
 #main-bio {
-  width: 70%;
+  width: 65%;
 }
 
 #contact-info {
-  width: 30%;
+  width: 40%;
 }
 
 #bio-image {
