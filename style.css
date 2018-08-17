@@ -52,7 +52,7 @@ a {
 }
 
 #bio-name {
-  position: absolute;
+  position: left;
   top: 150px;
   left: 30px;
 }
@@ -68,5 +68,6 @@ a {
 #bio-image {
   width: 200px;
   height: 200px;
-  margin-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
